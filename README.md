@@ -2,10 +2,10 @@ Scala Zurich Meetup laboratory on PureConfig
 ===============
 
 The laboratory consists of three exercises plus a special one (see at the end) ordered by difficulty.
-The exercises can be found at [](src/test/scala/pureconfig/exercises/Spec.scala)
+The exercises can be found at [src/test/scala/pureconfig/exercises/Spec.scala](src/test/scala/pureconfig/example/Spec.scala)
 and are coded as scalatest tests. The goal of the exercises is to have all green tests
-when `sbt test` is run.
-The configuration file is provided under [](src/test/resources/references.conf) and
+when `sbt test` is run. Each exercises has some notes about the exercise on top of it.
+The configuration file is provided under [src/test/resources/references.conf](src/test/resources/reference.conf) and
 it's automatically loaded when `sbt test` is run.
 
 For any information, please refer to [PureConfig README.md](https://github.com/pureconfig/pureconfig/blob/master/README.md).
